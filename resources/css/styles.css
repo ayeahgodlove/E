@@ -1,0 +1,55 @@
+
+header{ padding: 20px; }
+header img{ width: 20%; float:left;}
+
+header h2{
+    float:right;   font-family: cursive; font-size:18px; margin-top:130px;
+}
+.contents{
+    border-radius: 10px; border: 1px solid #ddd; padding: 20px; min-height: 400px;
+}
+.longcont{width:900px; margin:50px auto; margin-top:90px; min-height: 500px;}
+.longconts{width:400px; margin:50px auto; margin-top:90px; min-height: 450px;}
+aside{
+    width:20%; float: left; min-height: 150px;
+}
+aside a{
+    display: block; margin: 5px; margin-right: 20px; 
+}
+footer{
+    padding: 20px; text-align: center; border-top: 2px dashed #ddd; margin-top: 50px;
+}
+footer p{
+    font-family: verdana; font-size:16px; 
+}
+.clear{
+    width:100%; height: 0; clear:both; 
+}
+.btn-danger{
+    border-radius:5px; padding:7px 15px; 
+}
+.btn-danger:hover{ 
+    text-decoration: none; 
+}
+
+.register{width: 40%; float: left;  }
+.login{width: 40%; float: right;}
+.register input[type="text"], .login input[type="text"] ,.register input[type="email"], .login input[type="email"],
+.register input[type="password"], .login input[type="password"]{display: block; width:250px; border: 1px solid #ddd; }
+label{float:left; width:90px;}
+.register input,.login input{
+    width:250px; 
+    height: 35px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 1px solid #999;
+    display:block;
+    margin-bottom: 25px;
+}
+.register input[type="submit"],.login input[type="submit"]{ height: 40px; text-align: center; margin: 40px 90px; }
+
+.register h1, .login h1{text-align: center; font-family: verdana; font-size: 18px;}
+
+.logo{
+    width: 40%; float: left; margin-top: 90px;
+}

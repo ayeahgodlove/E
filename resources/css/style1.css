@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 29, 2018, 10:27:47 AM
+    Author     : Ayeah
+*/
+
+.Reservation{
+     width:90%; 
+     margin-top: 25px;
+     display:block;
+     margin-left: 10%;
+}
+.Reservation input{
+     border: 1px solid #333; 
+     width:65%; 
+     margin-bottom: 20px;
+     padding: 25px 10px;
+}
+.Reservation input[type="number"]{
+    width: 35%;
+}
+.btn-primary btn-lg{
+    padding: 20px; 
+    float: right;
+}
